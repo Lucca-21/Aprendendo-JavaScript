@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+body {
+    background-color: #909090;
+    height: 720px;
+}
+
+input {
+    border: solid 1px blue;
+    background-color: #00ff8c;
+    border-radius: 24px;
+}
+
+div {
+    border-radius: 15px;
+}
+
+#box_sizing {
+    width: 1210px;
+    border: solid 5px red;
+    border-radius: 0px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ------------------------------------ */
+
+#area_1 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* ------------------------------------ */
+
+#area_2 {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#calculadora {
+    display: flex;
+    width: 100px;
+    flex-direction: row;
+    margin: 0px auto;
+}
+
+#numeros {
+    display: flex;
+    width: 50px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+#numero_1 {
+    width: 50px;
+    height: 25px;
+    color: #000;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#numero_2 {
+    width: 50px;
+    height: 25px;
+    color: #000;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#Button {
+    height: 50px;
+    width: 50px;
+    color: #000;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#resultado {
+    height: 50px;
+    width: 100px;
+    background-color: #00ff8c;
+    border: solid 1px blue;
+    color: #000;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0px;
+}
+
+/* ---------------------------------------------- */
+
+#area_3 {
+    width: 400px;
+    height: 200px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+}
+
+#pardal {
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#pardal > h2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: solid 1px gre;
+}
+
+.text_1 {
+    display: inline;
+    max-width: 300px;
+}
+
+#txtvel1 {
+    width: 100px;
+    color: #000;
+    text-align: center;
+}
+
+#verificaçao {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#verificar {
+    font-size: 2rem;
+    font-weight: bold;
+    width: 50%;
+}
+
+#veredito {
+    background-color: #00ff8c;
+    border: solid 1px blue;
+    width: 40%;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+}
+
+/* ------------------------------------ */
+
+#area_4 {
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+}
+
+#age {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    color: #000;
+    flex-wrap: wrap;
+}
+
+#pergunta_idade {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+}
+#idade {
+    height: 25px;
+    text-align: center;
+}
+
+#button_idade {
+    width: 50%;
+    background-color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#resposta {
+    background-color: violet;
+    border: solid 1px blue;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    width: 50%;
+    height: 50%;
+}
+
+/* ------------------------------------ */
+
+#area_5 {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+}
+
