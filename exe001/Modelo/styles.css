@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Roboto Slab", serif;
+    font-size: 16px;
+    color: white;
+}
+
+body {
+    background-color: rgb(195, 40, 30);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+section {
+    width: 700px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.425);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+#msg {
+    padding: 25px;
+    font-size: 2rem;
+    text-align: justify;
+    color: black;
+}
+
+#imagem {
+    padding: 25px;
+}
+
+footer {
+    font-size: 2rem;
+}
