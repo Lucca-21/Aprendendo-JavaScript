@@ -105,6 +105,7 @@ div {
     font-size: 2rem;
     text-align: center;
     margin: 0px;
+    padding: 5px 0px;
 }
 
 /* ---------------------------------------------- */
@@ -164,6 +165,7 @@ div {
     text-align: center;
     font-size: 2rem;
     color: black;
+    padding: 0px 0px 5px 0px;
 }
 
 /* ------------------------------------ */
@@ -222,5 +224,27 @@ div {
     background-color: lightblue;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
+#checagem_container {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+
+#start {
+    width: 100%;
+    height: 50%;
+    color: black;
+}
+
+#finish {
+    background-color: violet;
+    width: 100%;
+    height: 50%;
+    border: solid 1px blue;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}

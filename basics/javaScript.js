@@ -91,4 +91,68 @@ function checando() {
 
 }
 
+/* --------------------------------------------------------- */
 
+var start = window.document.querySelector ('input#start')
+start.addEventListener ('click', start_day)
+
+function start_day() {
+
+    var agora = new Date()
+    var dia_sem = agora.getDay()
+
+    switch(dia_sem) {
+        case 0:
+            finish.style.fontSize = '1rem'
+            finish.style.padding = '15px'
+            finish.innerHTML = 'Domingo'
+            break
+
+        case 1:
+            finish.style.fontSize = '1rem'
+            finish.style.padding = '5px'
+            finish.innerHTML = 'Segunda-feira'
+            break
+
+        case 2:
+            finish.style.fontSize = '1rem'
+            finish.style.padding = '5px'
+            finish.innerHTML = 'Terça-feira'
+            break
+
+        case 3:
+            finish.style.fontSize = '1rem'
+            finish.style.padding = '5px'
+            finish.innerHTML = 'Quarta-feira'
+            break
+
+        case 4:
+            finish.style.fontSize = '1rem'
+            finish.style.padding = '5px'
+            finish.innerHTML = 'Quinta-feira'
+            break
+
+        case 5:
+            finish.style.fontSize = '1rem'
+            finish.style.padding = '5px'
+            finish.innerHTML = 'Sexta-feira'
+            break
+
+        case 6:
+            finish.style.fontSize = '1rem'
+            finish.style.padding = '15px'
+            finish.innerHTML = 'Sábado'
+            break
+
+        default:
+            finish.style.fontSize = '1rem'
+            finish.style.padding = '15px'
+            finish.innerHTML = '[ERROR]'
+            break
+    }
+
+
+
+
+
+}
